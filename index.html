@@ -7,6 +7,14 @@
 	<link rel="stylesheet" href="css/style.css">
 
   	<script src="js/bootstrap.js"></script>
+	<script type="text/javascript">
+      function nocontext(e) {
+        var clickedTag = (e==null) ? event.srcElement.tagName : e.target.tagName;
+        if (clickedTag == "IMG")
+          return false;
+      }
+      document.oncontextmenu = nocontext;
+    </script>
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -39,7 +47,9 @@
 	<div class="col-md-6">
 		<h2>About Me</h2>
 		<br>
-		<p>Hello. My name is Hilmi Zaidan. I'm a 3D Designer and Modeler. I make mods for GTA V and GTA San Andreas like cars, body kits, and ENB. Check out more <a href="#">here</a></p>
+		<p>Hello. My name is Hilmi Zaidan. I'm a 3D Designer and Modeler. I make mods for GTA V and GTA San Andreas like cars, body kits, and ENB.
+		<br><br>
+		More contents will be added in the future.</p>
 	</div>
 	<div class="col-sm-6">
 		<img src="img/enb1.jpg" width="100%"></img>
@@ -53,10 +63,19 @@
 	</div>
 </div>
 
-<div class="downloads">
+<div class="contact">
 	<div class="container-fluid text-center">
 		<h2><b>Contact</b></h2>
-		<p>If you want to contact me for any reason, send an email to zdansmodifications@gmail.com
-		<br>or check out my Facebook <a href="https://www.facebook.com/Hilmi.Zaidan.A">here</a></p>
+		<p>If you want to contact me for any reason, send an email to zdansmodifications[at]gmail.com
+		<br>or check out my social media <a href="https://www.facebook.com/Hilmi.Zaidan.A">here</a>
+		</p>
     </div>
 </div>
+
+<footer>
+	<div class="container-fluid text-center">
+		<p>&copy 2017 zDans Modifications. All Rights Reserved.
+		<br>
+		Designed by Deraidos
+		</p>
+</footer>
