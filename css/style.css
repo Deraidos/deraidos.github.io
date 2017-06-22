@@ -1,0 +1,82 @@
+@font-face { 
+  font-family: Open Sans; 
+  src: url('OpenSans-Regular.ttf'); 
+}
+ .container-fluid {
+      padding: 30px;
+}
+body {
+      font: 18px Open Sans, sans-serif;
+      line-height: 1.5;
+      color: #f5f6f7;
+}
+.jumbotron {
+	background-image: url(../img/gta.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+  background-position: bottom;
+  	color: #fff;
+  	padding: 15%;
+  margin-bottom: 0;
+}
+.content {
+	background-color: #1C1C1C;
+	color: #fff;
+}
+h1 {
+	font-size: 70px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+button {
+	transition: 0.3s ease;
+}
+.about {
+	background-color: #2e2e2e;
+	color: #fff;
+}
+.navbar {
+  background-image: url(../img/gta.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: bottom;
+  padding: 0;
+  margin-bottom: 0;
+  border: 0;
+  border-radius: 0px;
+}
+.navbar .brand, .navbar .nav > li > a {
+  color: #fff;
+  border-radius: 10px;
+  transition: 0.4s ease;
+}
+.navbar .brand, .navbar .nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background-color: #fff;
+  border-radius: 10px;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:focus {
+  color: #fff;
+  transition: 0.3s ease;
+}
+.navbar-default .navbar-brand:hover {
+  color: #00BFFF;
+}
+.navbar.scrolled {
+    background: rgb(68, 68, 68); //IE
+    background: rgba(0, 0, 0, 0.78); //NON-IE
+}
+.downloads  {
+  background-color: #4BB3D6;
+  background-color: #1E824C; !important
+  color: #fff;
+}
+table {
+  margin: 0 auto;
+}
+img {
+  border: 3px solid;
+  border-radius: 10px;
+}
