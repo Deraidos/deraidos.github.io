@@ -68,9 +68,10 @@ button {
     background: rgb(68, 68, 68); //IE
     background: rgba(0, 0, 0, 0.78); //NON-IE
 }
-.downloads  {
+.contact  {
   background-color: #4BB3D6;
-  background-color: #1E824C; !important
+  background-color: #1E824C; 
+  background-color: #2a2a2a; !important
   color: #fff;
 }
 table {
@@ -79,4 +80,23 @@ table {
 img {
   border: 3px solid;
   border-radius: 10px;
+  
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+footer {
+  font-size: 14px;
+  background-color: #1c1c1c;
+}
+a:visited {
+  color: orange;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s ease;
 }
